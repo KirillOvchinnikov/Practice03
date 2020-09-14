@@ -43,6 +43,6 @@ public class MovablePoint implements Movable {
     @Override
     public void moveRight()
     {
-        this.x-=xSpeed;
+        this.x+=xSpeed;
     }
 }
